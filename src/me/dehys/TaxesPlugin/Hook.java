@@ -1,10 +1,13 @@
-package me.dehys.Taxes;
+package me.dehys.TaxesPlugin;
 
+import me.dehys.TaxesPlugin.Taxing.Taxes;
 import net.milkbowl.vault.economy.Economy;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Main extends JavaPlugin {
+public class Hook extends JavaPlugin {
+
+    private Economy economy;
 
     @Override
     public void onEnable() {
@@ -16,22 +19,17 @@ public class Main extends JavaPlugin {
             return;
         }
 
-        new Taxes(this); //Actually getting somewhere...
-
+        new Taxes(this, economy); //Actually getting somewhere...
     }
 
 
     //Makes sure Vault and any kind of economy plugin is installed.
-    private boolean setupEconomy()
-    {
-        if (getServer().getPluginManager().getPlugin("Vault") == null) {
-            return false;
-        }
+    private boolean setupEconomy() {
         RegisteredServiceProvider<Economy> rsp = getServer().getServicesManager().getRegistration(Economy.class);
-        if (rsp == null) {
+        if (getServer().getPluginManager().getPlugin("Vault") == null || rsp == null) {
             return false;
         }
-
-        return true;
+        this.economy = ((Economy)rsp.getProvider());
+        return this.economy != null;
     }
 }

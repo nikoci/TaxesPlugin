@@ -1,8 +1,4 @@
 name: Taxes
 version: 2.0
 author: dehys
-main: me.dehys.Taxes.Main
-commands:
-  taxes:
-    usage: /<command>
-    description: information about the Taxing system
+main: me.dehys.TaxesPlugin.Hook
