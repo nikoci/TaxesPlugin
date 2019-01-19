@@ -5,7 +5,7 @@ import net.milkbowl.vault.economy.Economy;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Hook extends JavaPlugin {
+public class Plugin extends JavaPlugin {
 
     private Economy economy;
 
@@ -14,16 +14,14 @@ public class Hook extends JavaPlugin {
         getConfig().options().copyDefaults(true);
         saveConfig();
 
-        if(!setupEconomy()){ //Bro you don't have a fucking economy plugin? dafuq you doin esse?
+        if(!setupEconomy()){
             getServer().getPluginManager().disablePlugin(this);
             return;
         }
 
-        new Taxes(this, economy); //Actually getting somewhere...
+        new Taxes(this, economy);
     }
 
-
-    //Makes sure Vault and any kind of economy plugin is installed.
     private boolean setupEconomy() {
         RegisteredServiceProvider<Economy> rsp = getServer().getServicesManager().getRegistration(Economy.class);
         if (getServer().getPluginManager().getPlugin("Vault") == null || rsp == null) {

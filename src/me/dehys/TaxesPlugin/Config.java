@@ -1,35 +1,37 @@
 package me.dehys.TaxesPlugin;
 
 public class Config {
-    Hook hook;
+    /*
+    Plugin plugin;
 
-    public Config(Hook hook){
-        this.hook = hook;
+    public Config(Plugin hook){
+        this.plugin = hook;
     }
 
     private void save(){
-        hook.saveConfig();
+        plugin.saveConfig();
     }
 
-    public int delay(){ return hook.getConfig().getInt("delay");}
-    public void setDelay(int i){ hook.getConfig().set("delay", i); save();}
+    public int delay(){ return plugin.getConfig().getInt("delay");}
+    public void setDelay(int i){ plugin.getConfig().set("delay", i); save();}
 
-    public long updateRatio(){ return hook.getConfig().getLong("updateRatio");}
-    public void setUpdateRatio(long l){ hook.getConfig().set("updateRatio", l); save();}
+    public long updateRatio(){ return plugin.getConfig().getLong("updateRatio");}
+    public void setUpdateRatio(long l){ plugin.getConfig().set("updateRatio", l); save();}
 
-    public int taxRate(){ return hook.getConfig().getInt("taxRate")/100;}
-    public void setTaxRate(int i){ hook.getConfig().set("taxRate", i); save();}
+    public int taxRate(){ return plugin.getConfig().getInt("taxRate")/100;}
+    public void setTaxRate(int i){ plugin.getConfig().set("taxRate", i); save();}
 
-    public boolean taxAmountEnabled(){ return hook.getConfig().getBoolean("taxAmountEnabled");}
-    public void setTaxAmountEnabled(boolean b){ hook.getConfig().set("taxAmountEnabled", b); save();}
+    public boolean taxAmountEnabled(){ return plugin.getConfig().getBoolean("taxAmountEnabled");}
+    public void setTaxAmountEnabled(boolean b){ plugin.getConfig().set("taxAmountEnabled", b); save();}
 
-    public double taxAmount(){ return hook.getConfig().getDouble("taxAmount");}
-    public void setTaxAmount(double d){ hook.getConfig().set("taxAmount", d); save();}
+    public double taxAmount(){ return plugin.getConfig().getDouble("taxAmount");}
+    public void setTaxAmount(double d){ plugin.getConfig().set("taxAmount", d); save();}
 
 
-    public int currentState(){ return hook.getConfig().getInt("currentState");}
-    public void setCurrentState(int i){ hook.getConfig().set("currentState", i); save();}
+    public int currentState(){ return plugin.getConfig().getInt("currentState");}
+    public void setCurrentState(int i){ plugin.getConfig().set("currentState", i); save();}
 
-    public int taxTimes(){ return hook.getConfig().getInt("taxTimes");}
-    public void setTaxTimes(int i){ hook.getConfig().set("taxTimes", i); save();}
+    public int taxTimes(){ return plugin.getConfig().getInt("taxTimes");}
+    public void setTaxTimes(int i){ plugin.getConfig().set("taxTimes", i); save();}
+    */
 }

@@ -1,7 +1,6 @@
 package me.dehys.TaxesPlugin.Taxing;
 
-import me.dehys.TaxesPlugin.Config;
-import me.dehys.TaxesPlugin.Hook;
+import me.dehys.TaxesPlugin.Plugin;
 import net.milkbowl.vault.economy.Economy;
 import org.bukkit.Bukkit;
 import org.bukkit.scheduler.BukkitRunnable;
@@ -9,23 +8,22 @@ import org.bukkit.scheduler.BukkitRunnable;
 import java.util.Arrays;
 
 public class Taxes {
-    private Config con;
+    private Plugin plugin;
 
+    public Taxes(Plugin plugin, Economy economy){
+        this.plugin = plugin;
 
-    public Taxes(Hook hook, Economy economy){
-        this.con = new Config(hook);
+        long updateRatio = plugin.getConfig().getLong("updateRatio");
+        int delay = plugin.getConfig().getInt("delay");
 
-        long updateRatio = con.updateRatio();
-        int delay = con.delay();
+        TaxManager tm = new TaxManager(plugin, economy);
 
-        TaxManager tm = new TaxManager(hook, economy);
-
-        hook.getServer().getScheduler().scheduleSyncDelayedTask(hook, (Runnable) new BukkitRunnable() {
+        plugin.getServer().getScheduler().scheduleSyncDelayedTask(plugin, (Runnable) new BukkitRunnable() {
 
 
             @Override
             public void run() {
-                if(checkCurrentState() >= delay){
+                if(getCurrentState() >= delay){
                     resetCurrentState();
                     tm.taxPlayers(Arrays.asList(Bukkit.getServer().getOfflinePlayers()));
                 }else{
@@ -34,7 +32,7 @@ public class Taxes {
             }
 
 
-        }.runTaskTimer(hook, 0, updateRatio));
+        }.runTaskTimer(plugin, 0, updateRatio));
     }
 
 
@@ -42,14 +40,16 @@ public class Taxes {
 
 
     private void addCurrentState(){
-        con.setCurrentState(con.currentState()+1);
+        plugin.getConfig().set("currentState", plugin.getConfig().getInt("currentState")+1);
+        plugin.saveConfig();
     }
 
     private void resetCurrentState(){
-        con.setCurrentState(0);
+        plugin.getConfig().set("currentState", 0);
+        plugin.saveConfig();
     }
 
-    private int checkCurrentState(){
-        return con.currentState();
+    private int getCurrentState(){
+        return plugin.getConfig().getInt("currentState");
     }
 }
