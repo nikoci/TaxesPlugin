@@ -1,6 +1,6 @@
-package me.dehys.TaxesPlugin;
+package com.dehys.taxesplugin;
 
-import me.dehys.TaxesPlugin.Taxing.Taxes;
+import com.dehys.taxesplugin.taxing.Taxes;
 import net.milkbowl.vault.economy.Economy;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;

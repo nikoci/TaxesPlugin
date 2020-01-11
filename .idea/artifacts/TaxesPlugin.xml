@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TaxesPlugin">
+    <output-path>$PROJECT_DIR$/../../Servers/TestServer/plugins</output-path>
+    <root id="archive" name="TaxesPlugin.jar">
+      <element id="module-output" name="TaxesPlugin" />
+    </root>
+  </artifact>
+</component>

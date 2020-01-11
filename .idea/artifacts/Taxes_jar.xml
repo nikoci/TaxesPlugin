@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="Taxes:jar">
-    <output-path>D:/MC Servers/Radical HQ/plugins</output-path>
-    <root id="archive" name="Taxes.jar">
-      <element id="module-output" name="Taxes" />
-    </root>
-  </artifact>
-</component>

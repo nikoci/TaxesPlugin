@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Taxes.iml" filepath="$PROJECT_DIR$/Taxes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TaxesPlugin.iml" filepath="$PROJECT_DIR$/TaxesPlugin.iml" />
     </modules>
   </component>
 </project>

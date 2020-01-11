@@ -1,4 +1,4 @@
-package me.dehys.TaxesPlugin;
+package com.dehys.taxesplugin;
 
 public class Config {
     /*

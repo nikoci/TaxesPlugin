@@ -1,8 +1,9 @@
-package me.dehys.TaxesPlugin.Taxing;
+package com.dehys.taxesplugin.taxing;
 
-import me.dehys.TaxesPlugin.Plugin;
+import com.dehys.taxesplugin.Plugin;
 import net.milkbowl.vault.economy.Economy;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.scheduler.BukkitRunnable;
 
 import java.util.Arrays;
@@ -25,7 +26,16 @@ public class Taxes {
             public void run() {
                 if(getCurrentState() >= delay){
                     resetCurrentState();
-                    tm.taxPlayers(Arrays.asList(Bukkit.getServer().getOfflinePlayers()));
+
+                    if(plugin.getConfig().getBoolean("taxAmountEnabled")){ //s
+                        tm.taxPlayersByAmount(Arrays.asList(Bukkit.getOfflinePlayers()), plugin.getConfig().getDouble("taxAmount"));
+                    }else{
+                        tm.taxPlayersByRate(Arrays.asList(Bukkit.getOfflinePlayers()), plugin.getConfig().getDouble("taxRate") / 100);
+                    }
+
+                    plugin.getConfig().set("taxTimes" , plugin.getConfig().getInt("taxTimes")+1);
+                    plugin.saveConfig();
+                    Bukkit.getServer().broadcastMessage(ChatColor.GOLD + "[TAX] " + ChatColor.GRAY + "Took" + ChatColor.RED + " -"+plugin.getConfig().getDouble("taxRate")+" " + ChatColor.GRAY + "from all registered players! " + ChatColor.GREEN + "#" + plugin.getConfig().getInt("taxTimes"));
                 }else{
                     addCurrentState();
                 }

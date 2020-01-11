@@ -2,27 +2,32 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Taxes:jar" />
+      <artifact name="TaxesPlugin" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15f58f83-8de7-473d-ae26-7786f5b56ccf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Taxes_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Taxes_jar.xml" afterDir="false" />
+    <list default="true" id="d91a574d-923d-44eb-9b1b-c88d5711ff7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/TaxesPlugin.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/spigot_1_15_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Taxes_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Vault.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Vault.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/spigot_1_13_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Taxes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Taxes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Taxes/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Taxes/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Taxes/me/dehys/TaxesPlugin/Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Taxes/me/dehys/TaxesPlugin/Config.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Taxes/me/dehys/TaxesPlugin/Hook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Taxes/me/dehys/TaxesPlugin/Taxing/TaxManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Taxes/me/dehys/TaxesPlugin/Taxing/TaxManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Taxes/me/dehys/TaxesPlugin/Taxing/Taxes$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Taxes/me/dehys/TaxesPlugin/Taxing/Taxes$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Taxes/me/dehys/TaxesPlugin/Taxing/Taxes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Taxes/me/dehys/TaxesPlugin/Taxing/Taxes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Taxes/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Taxes/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Config.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Plugin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Taxing/TaxManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Taxing/TaxManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Taxing/Taxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Taxing/Taxes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Commands/Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dehys/taxesplugin/commands/Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Commands/Pause.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dehys/taxesplugin/commands/Pause.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Commands/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dehys/taxesplugin/commands/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Commands/Tax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dehys/taxesplugin/commands/Tax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dehys/taxesplugin/Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Plugin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dehys/taxesplugin/Plugin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Taxing/TaxManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dehys/taxesplugin/taxing/TaxManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Taxing/Taxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dehys/taxesplugin/taxing/Taxes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,50 +37,74 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Plugin.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dehys/taxesplugin/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="22">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Config.java">
+        <entry file="file://$PROJECT_DIR$/src/plugin.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+            <state relative-caret-position="66">
+              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Taxing/TaxManager.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dehys/taxesplugin/commands/Info.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="72" column="30" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dehys/taxesplugin/commands/Pause.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dehys/taxesplugin/commands/Settings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dehys/taxesplugin/commands/Tax.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Taxing/Taxes.java">
+        <entry file="file://$PROJECT_DIR$/src/com/dehys/taxesplugin/taxing/Taxes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="286">
+              <caret line="29" column="78" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1333#1334#0" expanded="true" />
-                <element signature="e#1399#1400#0" expanded="true" />
+                <element signature="e#1353#1354#0" expanded="true" />
+                <element signature="e#1417#1418#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,27 +113,37 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+            <state relative-caret-position="286">
+              <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dehys/taxesplugin/taxing/TaxManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dehys/taxesplugin/Plugin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>config</find>
-      <find>config().set</find>
-      <find>.set</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,97 +151,93 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/me/dehys/Taxes/m.java" />
-        <option value="$PROJECT_DIR$/src/me/dehys/Taxes/Main.java" />
-        <option value="$PROJECT_DIR$/src/me/dehys/Taxes/TaxManager.java" />
-        <option value="$PROJECT_DIR$/src/me/dehys/Taxes/Taxes.java" />
-        <option value="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/TaxHook.java" />
-        <option value="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/TaxManager.java" />
-        <option value="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Taxes/Taxes.java" />
-        <option value="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Commands/Settings.java" />
-        <option value="$PROJECT_DIR$/src/plugin.yml" />
-        <option value="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Hook.java" />
-        <option value="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Config.java" />
-        <option value="$PROJECT_DIR$/src/config.yml" />
-        <option value="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Taxing/Taxes.java" />
-        <option value="$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Taxing/TaxManager.java" />
+        <option value="$PROJECT_DIR$/src/com/dehys/taxesplugin/Plugin.java" />
+        <option value="$PROJECT_DIR$/src/com/dehys/taxesplugin/taxing/TaxManager.java" />
+        <option value="$PROJECT_DIR$/src/com/dehys/taxesplugin/taxing/Taxes.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="196" />
-    <option name="y" value="25" />
-    <option name="width" value="1372" />
-    <option name="height" value="765" />
-  </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
+    <option name="x" value="91" />
+    <option name="y" value="-18" />
+    <option name="width" value="1738" />
+    <option name="height" value="976" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Taxes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Taxes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Taxes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Taxes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Taxes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Taxes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="me" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Taxes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Taxes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="me" type="462c0819:PsiDirectoryNode" />
-              <item name="dehys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Taxes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Taxes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="me" type="462c0819:PsiDirectoryNode" />
-              <item name="dehys" type="462c0819:PsiDirectoryNode" />
+              <item name="TaxesPlugin" type="b2602c69:ProjectViewProjectNode" />
               <item name="TaxesPlugin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Taxes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Taxes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="me" type="462c0819:PsiDirectoryNode" />
-              <item name="dehys" type="462c0819:PsiDirectoryNode" />
+              <item name="TaxesPlugin" type="b2602c69:ProjectViewProjectNode" />
               <item name="TaxesPlugin" type="462c0819:PsiDirectoryNode" />
-              <item name="Taxing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaxesPlugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxesPlugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaxesPlugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxesPlugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dehys" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaxesPlugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxesPlugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dehys" type="462c0819:PsiDirectoryNode" />
+              <item name="taxesplugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaxesPlugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxesPlugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dehys" type="462c0819:PsiDirectoryNode" />
+              <item name="taxesplugin" type="462c0819:PsiDirectoryNode" />
+              <item name="commands" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TaxesPlugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TaxesPlugin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="dehys" type="462c0819:PsiDirectoryNode" />
+              <item name="taxesplugin" type="462c0819:PsiDirectoryNode" />
+              <item name="taxing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547862564644" />
-    <property name="last_opened_file_path" value="D:/MC Servers/Radical HQ/plugins" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Servers/TestServer/plugins" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.14784546" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -216,207 +251,140 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="me.dehys.TaxesPlugin.m" />
-      <module name="Taxes" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="15f58f83-8de7-473d-ae26-7786f5b56ccf" name="Default Changelist" comment="" />
-      <created>1547647542611</created>
+      <changelist id="d91a574d-923d-44eb-9b1b-c88d5711ff7e" name="Default Changelist" comment="" />
+      <created>1578684955999</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1547647542611</updated>
-      <workItem from="1547860359908" duration="2201000" />
+      <updated>1578684955999</updated>
+      <workItem from="1578684973567" duration="6082000" />
     </task>
-    <task id="LOCAL-00001" summary="First Commit">
-      <created>1547647685162</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1547647685162</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Changin up th3 structur3 :D">
-      <created>1547648031336</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1547648031336</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2201000" />
+    <option name="totallyTimeSpent" value="6082000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19423692" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Duplicate detector" weight="0.32899022" />
-      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32790446" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32977587" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289183" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.05326087" />
       <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
-  </component>
-  <component name="Vcs.Log.History.Properties">
-    <option name="COLUMN_ORDER">
-      <list>
-        <option value="0" />
-        <option value="2" />
-        <option value="3" />
-        <option value="1" />
-      </list>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="First Commit" />
-    <MESSAGE value="Changin up th3 structur3 :D" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changin up th3 structur3 :D" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Libraries/spigot-1.13.2.jar!/org/bukkit/plugin/java/JavaPlugin.class">
+    <entry file="file://$PROJECT_DIR$/src/com/dehys/taxesplugin/Plugin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+        <state relative-caret-position="154">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/hej.class" />
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/src/com/dehys/taxesplugin/Config.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/dehys/TaxesPlugin/m.java" />
-    <entry file="file://$PROJECT_DIR$/Taxes.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Commands/Settings/setDelay.java" />
-    <entry file="file://$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Commands/Settings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
+        <state relative-caret-position="22">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Commands/Pause.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Commands/Tax.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Commands/Info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/plugin.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        <state relative-caret-position="66">
+          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dehys/taxesplugin/commands/Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dehys/taxesplugin/commands/Pause.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dehys/taxesplugin/commands/Settings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dehys/taxesplugin/commands/Tax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        <state relative-caret-position="286">
+          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Plugin.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dehys/taxesplugin/taxing/TaxManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="349">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Config.java">
+    <entry file="file://$PROJECT_DIR$/src/com/dehys/taxesplugin/taxing/Taxes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Taxing/TaxManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="72" column="30" selection-start-line="72" selection-start-column="26" selection-end-line="72" selection-end-column="30" />
+        <state relative-caret-position="286">
+          <caret line="29" column="78" selection-start-line="29" selection-start-column="78" selection-end-line="29" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/me/dehys/TaxesPlugin/Taxing/Taxes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1333#1334#0" expanded="true" />
-            <element signature="e#1399#1400#0" expanded="true" />
+            <element signature="e#1353#1354#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -427,7 +395,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>Taxes:jar</last-edited>
+          <last-edited>TaxesPlugin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -463,7 +431,6 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -475,12 +442,22 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Taxes</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
