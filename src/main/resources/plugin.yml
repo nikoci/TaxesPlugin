@@ -1,0 +1,8 @@
+name: Taxesplugin
+version: ${project.version}
+main: com.dehys.taxesplugin.Plugin
+api-version: 1.13
+depend: [Vault]
+authors: [Dehys]
+description: A simple taxes plugin to keep economy balanced using Vault
+website: https://github.com/dehys/TaxesPlugin
