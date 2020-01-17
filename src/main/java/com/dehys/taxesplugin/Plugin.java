@@ -2,6 +2,7 @@ package com.dehys.taxesplugin;
 
 import com.dehys.taxesplugin.taxing.Taxes;
 import net.milkbowl.vault.economy.Economy;
+import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 
