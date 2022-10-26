@@ -2,7 +2,6 @@ package com.dehys.taxesplugin;
 
 import com.dehys.taxesplugin.taxing.Taxes;
 import net.milkbowl.vault.economy.Economy;
-import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -28,7 +27,7 @@ public class Plugin extends JavaPlugin {
         if (getServer().getPluginManager().getPlugin("Vault") == null || rsp == null) {
             return false;
         }
-        this.economy = ((Economy)rsp.getProvider());
-        return this.economy != null;
+        this.economy = rsp.getProvider();
+        return true;
     }
 }
